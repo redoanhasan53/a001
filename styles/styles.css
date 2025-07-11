@@ -1,0 +1,58 @@
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #242532;
+}
+
+/* ===== Shared Hero Background (Navbar + Banner) ===== */
+.hero-bg {
+  background: url("../images/Hero-bg.png") center/cover no-repeat;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4e47ff;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #4e47ff;
+
+}
+.btn-light {
+  background: #4e47ff;
+  color: #ffffff;
+}
+
+/* ===== Banner ===== */
+.banner {
+  text-align: center;
+  padding: 140px 20px 160px; /* top + sides + bottom */
+}
+.banner-title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 42px;
+}
+.btn-primary {
+  background: #4e47ff;   /* adjust to match design */
+  color: #ffffff;
+}
