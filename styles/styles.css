@@ -107,12 +107,15 @@ body {
 
 /* ===== Productive Users Section ===== */
 .productive-users {
-  background-color: #4d47ff2c;
+  background-color: #e0f7fa;
   padding: 80px 20px;
   text-align: center;
-  color: #242532;
-  
+  color: #333;
+  border: 2px solid #ccc;  
+  border-radius: 12px;      
+  margin: 40px 20px;        
 }
+
 
 .productive-title {
   font-size: 32px;
@@ -143,5 +146,85 @@ body {
 .stat-block p {
   font-size: 16px;
   color: #555;
+}
+
+ /* ===== Users’ Feedback Section ===== */
+.feedback {
+  padding: 90px 20px;
+  text-align: center;
+  color: #333;
+  background: #fafafa;
+}
+
+.feedback-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.star-icon {
+  font-size: 48px;
+  color: #ffb703;   /* brand accent */
+  margin-bottom: 20px;
+}
+
+.feedback-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.feedback-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+/* Review card */
+.review-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 24px 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+   flex: 1 1 260px;     
+  max-width: 340px;    
+}
+
+.review-list {
+     display: flex;
+  gap: 20px;
+  justify-content: center;
+      
+}
+
+.review-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-info {
+  text-align: left;
+}
+
+.reviewer-name {
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #00796b;
+}
+
+.review-date {
+  font-size: 14px;
+  color: #999;
+}
+.review-stars {
+  width: 20px;             
+  margin-bottom: 10px;
+ display: flex;
+  gap: 0px;         
+  margin-bottom: 10px;         
 }
 
