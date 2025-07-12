@@ -41,7 +41,11 @@ body {
 .btn-blue {
       background: #4e47ff;
   color: #ffffff;
+  
 }
+.btn-blue:hover {transform: translateY(-5px);
+background-color: #3d36e0;}
+
 
 /* ===== Banner ===== */
 .banner {
@@ -57,6 +61,8 @@ body {
   background: #4e47ff;   
   color: #ffffff;
 }
+.btn-primary:hover { transform: translateY(-5px);
+background-color: #3d36e0;}
 
 /* ===== Action Section ===== */
 .action-section {
@@ -109,13 +115,14 @@ body {
 
 /* ===== Productive Users Section ===== */
 .productive-users {
-  background-color: #4d47ff3b;
+  background-color: #7d79e63b;
   padding: 80px 20px;
   text-align: center;
   color: #333;
+  
   border: 2px solid #ccc;  
   border-radius: 12px;      
-  margin: 30px 10px;
+  margin: 40px 100px;
  
 }
 
@@ -273,6 +280,8 @@ body {
   font-size: 16px;
   margin-bottom: 40px;
 }
+.cta-button:hover { transform: translateY(-5px);
+background-color: #3d36e0;}
 
 .image-content img {
   width: 100%;
@@ -357,7 +366,7 @@ body {
   transition: background 0.3s ease;
 }
 
-.contact-form button:hover {
+.contact-form button:hover { transform: translateY(-5px);
   background-color: #3d36e0;
 }
 
@@ -398,6 +407,7 @@ body {
 }
 
 .footer-links a:hover {
+  transform: translateY(-5px);
   color: #4E47FF;
 }
 
